@@ -1,0 +1,55 @@
+.Topo{
+    background-color: red;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.Menu{
+    text-align:center;
+}
+.row.display-inline-block > [class*='col-'] {
+   display: inline-block;
+   float: none;
+   vertical-align: middle;
+}
+
+.Logo{
+    height: auto;
+    width: auto;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 30%
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.Ops{
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover{
+    color:brown;
+}
+
