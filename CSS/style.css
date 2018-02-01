@@ -2,6 +2,74 @@
     background-color: red;
 }
 
+.Pesquisados{
+    background-color: black;
+}
+
+.Acessados{
+    color: white;
+    background-color: red;
+}
+
+.Propaganda{
+    max-width:100%;
+}
+
+.soma{
+    font-size: 9px;
+}
+
+.ContainerImagem{
+    padding:0;
+}
+
+.ContainerImagem img{
+    max-width:100%;
+}
+
+.texto{
+    margin-left: 7px;
+    margin-right: 7px;
+ }
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Escrever texto dentro da imagem */
+.TextoImagem {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Quadrado vermelho dentro da imagem */
+.ULDentroImagem{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.LIDentroImagem{
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.LIDentroImagem:before{
+    content: "■ "; 
+    color:red;
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
